@@ -1,0 +1,21 @@
+{
+    "name": "stolentine/excel",
+    "require": {
+        "maatwebsite/excel": "^3.1"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Stolentine\\Excel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stolentine\\Excel\\ServiceProvider"
+            ]
+        }
+    },
+    "description": "",
+    "type": "library"
+}
